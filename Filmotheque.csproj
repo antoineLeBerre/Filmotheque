@@ -16,8 +16,8 @@
 
 
     <ItemGroup>
-      <Folder Include="Models\Models" />
-      <Folder Include="Supervisors\Impl" />
+      <Folder Include="Models\Reposytories\Impl" />
+      <Folder Include="Services\Converters" />
     </ItemGroup>
 
 </Project>

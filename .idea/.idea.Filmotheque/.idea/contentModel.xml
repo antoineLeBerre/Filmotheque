@@ -5,16 +5,28 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="ConfigurationDI.cs" t="Include" />
+      <e p="ConfigurationRoutes.cs" t="Include" />
       <e p="Controllers" t="Include">
         <e p="HomeController.cs" t="Include" />
       </e>
       <e p="Filmotheque.csproj" t="IncludeRecursive" />
       <e p="Filmotheque.sln" t="IncludeFlat" />
+      <e p="Migrations" t="Include">
+        <e p="20190724201721_init_user.cs" t="Include" />
+        <e p="20190724201721_init_user.Designer.cs" t="Include" />
+        <e p="FilmothequeContextModelSnapshot.cs" t="Include" />
+      </e>
       <e p="Models" t="Include">
+        <e p="Configurations" t="Include">
+          <e p="UserConfigurations.cs" t="Include" />
+        </e>
         <e p="FilmothequeContext.cs" t="Include" />
-        <e p="Models" t="Include" />
-        <e p="ViewModels" t="Include">
-          <e p="ErrorViewModel.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Reposytories" t="Include">
+          <e p="Impl" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -29,10 +41,13 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
-      <e p="Startup.cs" t="Include" />
-      <e p="Supervisors" t="Include">
-        <e p="Impl" t="Include" />
+      <e p="Services" t="Include">
+        <e p="Converters" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
       </e>
+      <e p="Startup.cs" t="Include" />
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
